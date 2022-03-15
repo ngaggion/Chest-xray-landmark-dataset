@@ -1,7 +1,7 @@
 # Chest x-ray Landmark Segmentation Dataset.
 
 This git repo contains 911 landmark annotations for chest x-ray images from JSRT, Shenzhen, Montgomery and Padchest datasets.\
-The landmark annotations were obtained using an ensemble of HybridGNet 2-IGSC models, with binary segmentation masks as input.
+The landmark annotations were obtained using an ensemble of HybridGNet 2-IGSC models, with dense segmentation masks as input.
 
 Pre-processing scripts are provided for every dataset, please download them from their official websites. 
 
