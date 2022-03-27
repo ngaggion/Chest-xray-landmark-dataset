@@ -1,11 +1,14 @@
 # Chest x-ray Landmark Segmentation Dataset.
 
 This git repo contains 911 landmark annotations for chest x-ray images from JSRT, Shenzhen, Montgomery and Padchest datasets.\
+We are grateful to Padchest's team for providing people an easy way to download our subset of images, under "Sample 2".
+
 The landmark annotations were obtained with an ensemble of HybridGNet 2-IGSC models, using dense segmentation masks as input.
 
 ![Example](figs/landmarks.png)
 
-Pre-processing scripts are provided for every dataset, please download them from their official websites. 
+Pre-processing scripts are provided for every dataset, please download them from their official websites.\
+Links provided in the corresponding .ipynb file.
 
 Lung annotations are available for images from all datasets. \
 Heart annotations are only available for JSRT and Padchest images.
@@ -16,6 +19,8 @@ LL : Left Lung (50 landmarks) \
 H : Heart (26 landmarks)
 
 ![workflow](figs/info.png)
+
+## Citation
 
 If you are using the annotations, please cite our work:
 
