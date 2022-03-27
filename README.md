@@ -20,6 +20,26 @@ H : Heart (26 landmarks)
 
 ![workflow](figs/info.png)
 
+## Baseline results
+
+Results were taken under a 20% balanced test holdout set. For more details check on https://github.com/ngaggion/Chest-x-ray-Baselines
+
+Results for both lungs and heart segmentation, using the JSRT + Padchest subset:
+
+|      **Model** |        **MSE** | **Dice Lungs** | **Dice Heart** |  **HD Lungs** |  **HD Heart** |
+|---------------:|---------------:|---------------:|---------------:|--------------:|--------------:|
+|            PCA |     359.696809 |       0.938072 |       0.909292 |     50.469137 |     43.823793 |
+|             FC |     359.423800 |       0.938108 |       0.907268 |     50.506582 |     44.751405 |
+| **HybridGNet** | **220.685126** |   **0.965563** |   **0.933040** | **37.550593** | **35.982695** |
+
+Results for lung segmentation only, using the full dataset:
+
+|      **Model** |        **MSE** | **Dice Lungs** |  **HD Lungs** |
+|---------------:|---------------:|---------------:|--------------:|
+|            PCA |     216.482534 |       0.948304 |     14.330767 |
+|             FC |     232.796428 |       0.945217 |     14.704860 |
+| **HybridGNet** | **164.901661** |   **0.966364** | **12.080360** |
+
 ## Citation
 
 If you are using the annotations, please cite our work:
