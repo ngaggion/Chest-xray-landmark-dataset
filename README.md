@@ -20,6 +20,14 @@ H : Heart (26 landmarks)
 
 ![workflow](figs/info.png)
 
+## New study on combining heterogeneous landmark annotations using this dataset
+
+Please check our latest paper "Multi-center anatomical segmentation with heterogeneous labels via landmark-based models".
+
+Arxiv link: https://arxiv.org/abs/2211.07395
+
+Source code: https://github.com/ngaggion/MultiCenterSegRepo
+
 ## Baseline results
 
 Results were taken under a 20% balanced test holdout set. For more details check on https://github.com/ngaggion/Chest-x-ray-Baselines
