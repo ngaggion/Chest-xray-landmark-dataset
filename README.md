@@ -52,20 +52,19 @@ Results for lung segmentation only, using the full dataset:
 
 If you are using the annotations, please cite our works:
 
-Gaggion, N., Mansilla, L., Mosquera, C., Milone, D. H., & Ferrante, E. (2022). Improving anatomical plausibility in medical image segmentation via hybrid graph neural networks: applications to chest x-ray analysis. arXiv preprint arXiv:2203.10977.
+N. Gaggion, L. Mansilla, C. Mosquera, D. H. Milone and E. Ferrante, "Improving anatomical plausibility in medical image segmentation via hybrid graph neural networks: applications to chest x-ray analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2022.3224660.
 
-https://arxiv.org/abs/2203.10977
+https://doi.org/10.1109%2Ftmi.2022.3224660
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2203.10977,
-  doi = {10.48550/ARXIV.2203.10977},
-  url = {https://arxiv.org/abs/2203.10977},
-  author = {Gaggion, Nicolás and Mansilla, Lucas and Mosquera, Candelaria and Milone, Diego H. and Ferrante, Enzo},
-  keywords = {Image and Video Processing (eess.IV), Computer Vision and Pattern Recognition (cs.CV), FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Improving anatomical plausibility in medical image segmentation via hybrid graph neural networks: applications to chest x-ray analysis},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@article{Gaggion_2022,
+	doi = {10.1109/tmi.2022.3224660},
+	url = {https://doi.org/10.1109%2Ftmi.2022.3224660},
+	year = 2022,
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	author = {Nicolas Gaggion and Lucas Mansilla and Candelaria Mosquera and Diego H. Milone and Enzo Ferrante},
+	title = {Improving anatomical plausibility in medical image segmentation via hybrid graph neural networks: applications to chest x-ray analysis},
+	journal = {{IEEE} Transactions on Medical Imaging}
 }
 ```
 
